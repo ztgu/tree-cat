@@ -7,8 +7,9 @@ Simple golang example.
 ### Build:
     go build tree-cat.go
 ### Execute:
-    ./tree-cat.go <folder>
-    ./tree-cat.go test/
+    ./tree-cat <folder>
+    ./tree-cat test/
+
 
 ## Similar to:
 
@@ -32,3 +33,35 @@ Simple golang example.
     tree test/
 
 
+## ./tree-cat test 
+    test/asdf.txt
+    {
+    asdf
+    asdf
+    asdf
+    }
+    test/lol
+    test/lol/loller.txt
+    {
+    asdf
+    ffffl
+    }
+    test/lol/lol2.txt
+    {
+    asdf
+    asdf
+    asdf
+    asdf
+    
+    }
+    test/lol.c
+    {
+    #include <sqlite3.h>
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <string.h>
+    #define MAX_QUERY_LEN 256
+    typedef enum { FALSE_B, TRUE_B } bool_t;
+    bool_t first_json_row;
+    
+    }
