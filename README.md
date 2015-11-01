@@ -1,7 +1,7 @@
 # tree-cat
 
-Printing the file-contents of all files in a directory (recursive).
-Simple golang example. 
+Printing the file-name and file-content of all files in a directory (recursively).
+Simple golang example.
 
 ## Usage:
 ### Build:
